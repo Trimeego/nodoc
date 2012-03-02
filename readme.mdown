@@ -1,0 +1,7 @@
+## Setup
+
+### Node 
+
+Downlaod the DMG installer from nodejs.org and install node;
+
+

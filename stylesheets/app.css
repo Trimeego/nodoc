@@ -1,0 +1,40 @@
+/* @override http://localhost:3030/stylesheets/app.css */
+
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+/* -----------------------------------------
+   Foundation Style Overrides
+----------------------------------------- */
+
+.alert-box.success { background-color: #b8fb36; color: #333; }
+.alert-box.warning { background-color: #fcfc82; color: #333; }
+.alert-box.error { background-color: #ffa0a5; color: #fff; }
+.alert-box.info { background-color: #acc5fa; color: #fff; }
+
+@media only screen and (max-width: 767px) {
+		.button { display: inline-block; }
+}
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+body { margin: 20px 20px 40px 20px;}
+h1 {font-size: 200% }
+h2 {font-size: 175% }
+h3 {font-size: 150% }
+h4 {font-size: 125% }
+
+
+.title-page {text-align: center; min-height:400px; page-break-after:always;}
+.release-summary{min-height:400px; page-break-after:always;}
+.application{min-height:400px; page-break-after:always;}
+
