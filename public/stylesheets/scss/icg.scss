@@ -1,0 +1,109 @@
+@mixin unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;    
+}
+
+.loader{
+  background: url(/images/loader.gif) no-repeat;
+  padding-left: 30px;
+}
+
+a {
+  cursor: pointer;
+}
+div.attachment-view {
+  a.attachment-thumbnail {
+  float: left;
+  padding: 5px 5px 5px 5px;
+  margin: 0px 5px 0px 5px;
+  cursor: pointer;
+  min-width: 45px;
+  height: 55px;
+  z-index: 1000;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  }
+
+
+  a.attachment-thumbnail{
+    margin-top: 6px;
+    .placeholder {
+        margin: auto;
+        width: 45px;
+        height: 45px;
+        background: url(/images/filetypes/file_bin.png) no-repeat;
+        background-position: center top;
+      }
+    &hover {
+      background-color:#fcfcd2;
+    }
+  } 
+
+
+  .attachment-thumbnail-drop-hover  .attachment-add-zone{
+    background-color:#fcfcd2;
+  }  
+
+  
+  a.attachment-add-zone {
+    float:right;  
+    padding: 12px 5px 5px 5px;
+    margin: -12px 5px 0px 5px;
+    cursor: pointer;
+    text-align: center;
+    border: 2px #aaa dashed;
+    width:60px;
+    height:50px;
+    vertical-align: middle;
+  }
+
+  .attachment-add-zone:hover {
+    background-color:#fcfcd2;
+  }
+
+  a.excel-file .placeholder {
+    background: url(/images/filetypes/file_xls.png) no-repeat;
+  }
+
+}
+
+.login-form {
+  margin-left: -135px;
+  width:270px;
+
+  .title {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .buttons {
+    margin-top: 20px;
+  }
+
+  a.button {
+    margin: 10px;
+  }
+}
+
+.pcard-dashboard-view {
+
+  .content-area {
+    margin-top: 20px;
+  }
+
+  .portlet {
+    svg {
+      margin-left: 10px;
+    }
+  }
+}

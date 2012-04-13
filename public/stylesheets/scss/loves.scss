@@ -1,0 +1,344 @@
+body {
+  #headerBar {
+    background-color: #fff;
+    border 0px solid #fff
+    h1, #headerBar h2 { margin-bottom: 0; line-height: 1; }
+    h1 { color: white; font-size: 16px; font-size: 1.6rem; font-weight: 800; }
+    h1 a { color: #fff; font-weight: bold; }
+    h2 a { text-indent: -99999px; display: block; width: 82px; height: 14px; }
+
+    .logo-area {
+      background: #fff url(/images/loves-header.jpg) no-repeat 10px;
+      padding: 15px 20px 13px 20px; 
+      height: 80px;
+    }
+
+    .menu-area { 
+      padding-top:4px;
+      background-color: #eee;
+      height:22px;
+      border: 1px solid #ddd;
+      a { 
+        width: 220px;
+        line-height: 14px; 
+        color: #222; 
+        font-weight: 800; 
+        padding-right: 12px;
+      }
+      a:hover {
+        color: #666;
+      }
+
+    }
+
+  } 
+
+  #view-area {
+    min-height:500px;
+    background-color: #FFF;
+  }
+
+
+  h3 {
+    color: #6B6B6B;
+    margin-top: 5px;
+    font-size: 1.25em;
+  }  
+
+  .button.nice { 
+    background: #00a6fc url(/images/misc/button-gloss.png) repeat-x 0 -34px;
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.5);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.5);
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.28);
+    background: #ff7b00 url(/images/misc/button-gloss.png) repeat-x 0 -34px, -moz-linear-gradient(top, rgba(255,255,255,.4) 0%, transparent 100%);
+    background: #ff7b00 url(/images/misc/button-gloss.png) repeat-x 0 -34px, -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,.4)), color-stop(100%,transparent));
+    border: 1px solid #0593dc;
+    -webkit-transition: background-color .15s ease-in-out;
+    -moz-transition: background-color .15s ease-in-out;
+    -o-transition: background-color .15s ease-in-out;
+  }
+
+  .blue.button      { background-color: #00a6fc;  }
+  .orange.button      { background-color: #ff7b00;  }
+  .red.button       { background-color: #e91c21; }
+  .white.button     { background-color: #e9e9e9; color: #333; }
+  .black.button     { background-color: #141414; }
+
+  .nice.blue.button   { border: 1px solid #0593dc;  }
+  .nice.orange.button   { border: 1px solid #ff7b00;  }
+  .nice.red.button    { border: 1px solid #b90b0b;  }
+  .nice.white.button    { border: 1px solid #cacaca; text-shadow: none !important; }
+  .nice.black.button    { border: 1px solid #000; }
+  
+  /* Hovers ---------- */
+  .button:hover, .button:focus        { background-color: #0192dd; color: #fff; }
+  .blue.button:hover, .blue.button:focus    { background-color: #0192dd;  }
+  .red.button:hover, .red.button:focus    { background-color: #d01217;  }
+  .white.button:hover, .white.button:focus  { background-color: #dadada; color: #333; }
+  .black.button:hover, .black.button:focus  { background-color: #000; }
+  
+  /* Disabled ---------- */
+  .button.disabled, .button[disabled] { opacity: 0.6; cursor: default; }
+
+}
+
+body.alt1 {
+  #headerBar {
+
+    h1, #headerBar h2 { margin-bottom: 0; line-height: 1; }
+    h1 { color: white; font-size: 16px; font-size: 1.6rem; font-weight: 800; }
+    h1 a { color: #fff; font-weight: bold; }
+    h2 a { text-indent: -99999px; display: block; width: 82px; height: 14px; }
+    
+
+    .logo-area {
+      background: #ffe300 url(/images/loves-logo.png) no-repeat 10px;
+      padding: 15px 20px 13px 20px; 
+      height: 40px;
+
+    }
+    .menu-area { 
+      padding-top:3px;
+      background-color: #ff0005;
+      height:22px;
+
+      a { 
+        line-height: 14px; 
+        color: #fff; 
+        font-weight: 800; 
+        padding-right: 12px;
+        .button { padding: 4px 10px; font-weight: bold; }
+      }
+      a:hover {
+        color: #ffe300;
+      }
+
+    }
+
+  } 
+
+  #view-area {
+    min-height:500px;
+    background-color: #FFF;
+  }
+
+
+  h3 {
+    color: #6B6B6B;
+    margin-top: 5px;
+    font-size: 1.25em;
+  }  
+}
+
+
+
+body.alt2 {
+  
+  .button.nice { 
+    background: #ff7b00 url(/images/misc/button-gloss.png) repeat-x 0 -34px;
+    background: #ff7b00 url(/images/misc/button-gloss.png) repeat-x 0 -34px, -moz-linear-gradient(top, rgba(255,255,255,.4) 0%, transparent 100%);
+    background: #ff7b00 url(/images/misc/button-gloss.png) repeat-x 0 -34px, -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,.4)), color-stop(100%,transparent));
+    border: 1px solid #c67636;
+
+  }
+
+  .blue.button      { background-color: #00a6fc;  }
+  .orange.button      { background-color: #ff7b00;  }
+  .red.button       { background-color: #e91c21; }
+  .white.button     { background-color: #e9e9e9; color: #333; }
+  .black.button     { background-color: #141414; }
+
+  .nice.blue.button   { border: 1px solid #0593dc;  }
+  .nice.orange.button   { border: 1px solid #ff7b00;  }
+  .nice.red.button    { border: 1px solid #b90b0b;  }
+  .nice.white.button    { border: 1px solid #cacaca; text-shadow: none !important; }
+  .nice.black.button    { border: 1px solid #000; }
+
+  .button:hover, .button:focus { background-color: #ea8d42; color: #fff; }
+  .blue.button:hover, .blue.button:focus    { background-color: #0192dd;  }
+  .red.button:hover, .red.button:focus    { background-color: #d01217;  }
+  .white.button:hover, .white.button:focus  { background-color: #dadada; color: #333; }
+  .black.button:hover, .black.button:focus  { background-color: #000; }
+
+  background: #ffe300;
+
+  .left-bg {
+    background: #ffe300 url(/images/loves/left-bck.png);
+    height: 1236px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 445px;
+    z-index: -1;    
+  }
+    
+  .right-bg {
+    background: #ffe300 url(/images/loves/right-bck.png);
+    height: 1236px;
+    right: 0;
+    top: 0;
+    position: absolute;
+    width: 455px;
+    z-index: -1;
+  }
+
+
+  #headerBar {
+
+    h1, #headerBar h2 { margin-bottom: 0; line-height: 1; }
+    h1 { color: white; font-size: 16px; font-size: 1.6rem; font-weight: 800; }
+    h1 a { color: #fff; font-weight: bold; }
+    h2 a { text-indent: -99999px; display: block; width: 82px; height: 14px; }
+    
+
+    .logo-area {
+      background: #ffe300 url(/images/loves-logo.png) no-repeat 10px;
+      padding: 15px 20px 13px 20px; 
+      height: 40px;
+
+    }
+    .menu-area { 
+      padding-top:3px;
+      background-color: #ff0005;
+      height:22px;
+
+      a { 
+        line-height: 14px; 
+        color: #fff; 
+        font-weight: 800; 
+        padding-right: 12px;
+        .button { padding: 4px 10px; font-weight: bold; }
+      }
+      a:hover {
+        color: #ffe300;
+      }
+
+    }
+
+  } 
+
+  #view-area {
+    min-height:500px;
+    background-color: #FFF;
+  }
+
+  #footerBar {
+    height:22px;
+    background-color: #ff0005;
+  }
+
+  h3 {
+    color: #6B6B6B;
+    margin-top: 5px;
+    font-size: 1.25em;
+  }
+
+}
+
+
+.money {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.date {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.tran_date {
+  text-align: left;
+}
+.posting_date {
+  text-align: left;
+}
+
+.cardholder-statment {
+
+  .statement-area {
+      margin: 0px 10px 0px 10px;  
+  }
+
+}
+
+.expense-report-view {
+  .content-area {
+    margin: 0px 10px 0px 10px;
+  }
+}
+
+.statement-import-view{
+  margin-top:10px;
+  padding: 0px 10px;
+}
+
+.pcard-dashboard-view{
+  margin-top:10px;
+  padding: 0px 10px;
+}
+
+.container { padding: 0 0px; } 
+
+.summary-area {
+  margin-bottom: 10px; 
+}
+.transaction-more-row {
+  text-align: center;
+  font-size: 8pt;
+}
+.button.complete {
+  margin-left: 10px;
+}
+.button.save {
+  margin-left: 10px;
+}
+.button.route {
+  margin-left: 10px;
+}
+.transaction-item {
+  padding: 5px 0px 5px 0px;
+  border-top: 1px solid #ddd;
+}
+
+.content-area {
+  margin: 0px 0px 0px 0px;
+}
+a.attachment-thumbnail {
+  float:left;
+  padding: 5px; 
+  margin: 0px 5px 0px 5px;
+  cursor: pointer;
+  text-align: center
+}
+
+.details-area {
+  margin: 10px 0px 10px 0px;
+}
+.attachment-thumbnail:hover {
+  background-color:#fcfcd2;
+}
+
+a.attachment-add-zone {
+  float:right;  
+  padding: 15px 5px 5px 5px; 
+  margin: 2px 5px 0px 5px;
+  cursor: pointer;
+  text-align: center;
+  border: 2px #aaa dashed;
+  width:60px;
+  height:50px;
+  vertical-align: middle;
+}
+
+.attachment-add-zone:hover {
+  background-color:#fcfcd2;
+}
+
+.alert-link {
+  cursor: pointer;
+}
+
+
+
+
+

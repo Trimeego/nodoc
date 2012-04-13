@@ -1,0 +1,17 @@
+#headerBar {
+  height: 30px; }
+  #headerBar .menu-area {
+    margin-top: 10px; }
+
+#view-area.container {
+  margin-top: 10px; }
+
+div.details-area {
+  margin-top: 10px; }
+
+.deployment-view a.add {
+  margin-left: 10px; }
+.deployment-view a.remove {
+  margin-left: 10px; }
+.deployment-view .title.applications {
+  margin-top: 10px; }

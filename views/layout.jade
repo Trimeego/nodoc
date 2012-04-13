@@ -1,0 +1,50 @@
+!!! 5
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width')
+    title Nodoc Deployment View
+    link(rel="stylesheet", href="#{relativePath}stylesheets/globals.css")
+    link(rel="stylesheet", href="#{relativePath}stylesheets/typography.css")
+    link(rel="stylesheet", href="#{relativePath}stylesheets/grid.css")
+    link(rel="stylesheet", href="#{relativePath}stylesheets/ui.css")
+    link(rel="stylesheet", href="#{relativePath}stylesheets/forms.css")
+    link(rel="stylesheet", href="#{relativePath}stylesheets/orbit.css")
+    link(rel="stylesheet", href="#{relativePath}stylesheets/reveal.css")
+    link(rel="stylesheet", href="#{relativePath}stylesheets/mobile.css")
+    link(rel="stylesheet", href="#{relativePath}stylesheets/app.css")
+    link(rel="stylesheet", href="#{relativePath}stylesheets/font-awesome.css")
+    link(rel="stylesheet", href="#{relativePath}stylesheets/smoke.css")
+    link(rel="stylesheet", href="#{relativePath}stylesheets/nodoc.css")
+
+    // [if lt IE 9]
+    script(src='http://html5shiv.googlecode.com/svn/trunk/html5.js')
+    // [endif]
+
+    link(rel='stylesheet', href="#{relativePath}stylesheets/icg.css")
+
+    script(src="#{relativePath}javascripts/require-jquery.js")
+
+    body(class="#{theme}")
+      .left-bg
+
+      .right-bg
+      .row
+        #page-area
+          #headerBar.container
+            .menu-area
+              .four.phone-four.columns
+                h1 Releaseonator
+              .eight.phone-four.columns
+                strong.right
+                  a(href="#release") Release History
+                strong.right
+                  a(href="#deployments") Deployment List
+                strong.right
+                  a(href="#new") New Deployment
+          #view-area.container
+            != body
+          #footerBar.container
+
+
+ 

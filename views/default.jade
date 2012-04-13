@@ -1,0 +1,34 @@
+script(type="text/javascript", src="/javascripts/require-jquery.js")
+script(type="text/javascript")
+  require.config({
+    baseUrl: "/javascripts/",
+    waitSeconds: 15
+  });
+
+:coffeescript
+  window.Nodoc ?= {}
+
+  require ["order!vendor/underscore", "order!vendor/d3", "order!../nodoc"], -> 
+
+    # Setup the router
+    App.router = new Nodoc.Router();
+
+    #start the router
+    Backbone.history.start({silent:false, pushState:false});
+
+style
+ .details-area {
+    margin-left: 10px;
+ }
+
+
+
+ .children {
+    margin-left: 10px;
+ }
+
+
+#container
+  .row
+    .view-area
+  
