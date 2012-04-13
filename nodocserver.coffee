@@ -282,4 +282,4 @@ db.open (err, db) ->
             res.send result, 200
 
   console.log "Super Doc 2000 Server Started."
-  app.listen 8080
+  app.listen 8088
